@@ -2,11 +2,9 @@
 
 ![Pedal to MIDI Bridge Interface](screenshot.jpg)
 
-A lightweight utility that converts raw HID input from gaming pedals into MIDI Control Change (CC) messages for your DAW using a virtual MIDI port. Unlike a traditional expression pedal locked to a single fixed control channel, this bridge lets you route up to four independent MIDI CC parameters simultaneously across all three pedal axes. You can dynamically swap mappings like Expression, Volume, or Sustain directly at the hardware bridge level without reconfiguring your DAW setup.
+A lightweight utility that turns gaming pedals into a versatile MIDI expression setup. Raw HID input from your pedals is converted into MIDI Control Change (CC) messages for your DAW via a virtual MIDI port. Unlike a traditional expression pedal locked to a single control channel, this utility lets you route up to four independent MIDI CC parameters simultaneously across all three pedal axes. You can map parameters like Expression, Volume, or Sustain directly at the hardware bridge level without having to reconfigure your DAW setup every time.
 
 Tested on **Windows 10** with **Waveform** and **CH Products Pro Pedals USB**. It should hopefully work for your rig as well.
-
----
 
 ## Prerequisites (Virtual MIDI Port)
 
@@ -16,8 +14,6 @@ Before launching the app, you need a virtual MIDI loopback driver so your DAW ca
 2. Open loopMIDI and add a new port named **`PedalMIDI`**..
 3. Leave loopMIDI running in the background.
 
----
-
 ## Installation & Running
 
 Choose one of the two ways to run the application below.
@@ -26,9 +22,7 @@ Choose one of the two ways to run the application below.
 
 1. Go to the **Releases** section of this repository and download `pedal_to_midi.zip`.
 2. Extract the contents of `pedal_to_midi.zip` to a folder on your PC.
-3. Launch `pedal_to_midi.exe`. If you're on Windows, ignore the scary blue warning.
-
----
+3. Launch `pedal_to_midi.exe`. Ignore the scary blue warning.
 
 ### Option B: From Source (`pedal_to_midi.py`)
 
