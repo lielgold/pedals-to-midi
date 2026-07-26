@@ -1,0 +1,9 @@
+{
+    "x_cc": "CC 1 - Modulation Wheel",
+    "y_cc": "CC 7 - Main Volume",
+    "gas_cc": "CC 11 - Expression",
+    "brake_cc": "CC 64 - Sustain / Damper Pedal",
+    "deadzone_x": 15,
+    "deadzone_y": 15,
+    "deadzone_z": 15
+}
