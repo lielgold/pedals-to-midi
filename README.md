@@ -2,7 +2,7 @@
 
 ![Pedal to MIDI Bridge Interface](screenshot.jpg)
 
-A lightweight utility that converts raw HID input from gaming pedals into MIDI Control Change (CC) messages for your DAW using a virtual MIDI port.
+A lightweight utility that converts raw HID input from gaming pedals into MIDI Control Change (CC) messages for your DAW using a virtual MIDI port. Unlike a traditional expression pedal locked to a single fixed control channel, this bridge lets you route up to four independent MIDI CC parameters simultaneously across all three pedal axes. You can dynamically swap mappings like Expression, Volume, or Sustain directly at the hardware bridge level without reconfiguring your DAW setup.
 
 Tested on **Windows 10** with **Waveform** and **CH Products Pro Pedals USB**. It should hopefully work for your rig as well.
 
