@@ -1,9 +1,10 @@
 # /// script
 # dependencies = [
-#     "hidapi",
-#     "mido",
-#     "python-rtmidi",
+# 	"hidapi",
+# 	"mido",
+# 	"python-rtmidi",
 # ]
+# requires-python = "==3.12.*"
 # ///
 import json
 import os
